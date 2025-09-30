@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+.auth-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px 30px;
+  background: linear-gradient(135deg, #ff9800, #ffb74d);
+  border-radius: 25px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-height: fit-content;
+}
+
+.auth-container h1 {
+  margin-bottom: 35px;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  color: #131313;
+}
+
+.auth-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.auth-container input {
+  padding: 15px 20px;
+  border-radius: 15px;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+  background: rgba(130, 126, 126, 0.655);
+  color: #000;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  color: #000;
+}
+
+.auth-container input::placeholder {
+  color: #000;
+}
+
+.auth-container input:focus {
+  background: rgb(172, 109, 46);
+  box-shadow: 0 0 10px #0e0e0e;
+}
+
+.auth-container button {
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+  background: #ff6f00;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.auth-container button:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.35);
+}
+.signup-p {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #0e0e0e;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.signup-p button {
+  margin-left: 10px;
+  padding: 8px 18px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #ff9800, #ffb74d);
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.signup-p button:hover {
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,18 @@
+body {
+  background: linear-gradient(-45deg, #ff8008, #ff5722, #ffb347, #ff9966);
+  background-size: 400% 400%;
+  animation: gradientBG 10s ease infinite;
+  color: aliceblue;
+  text-align: center;
+}
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

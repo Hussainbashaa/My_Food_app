@@ -1,0 +1,44 @@
+.featured-restaurants-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 60px 30px;
+  background: linear-gradient(135deg, #ffddb3, #ffaa66);
+  border-radius: 30px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+.restaurant-card {
+  background: #fff5e6;
+  padding: 25px;
+  border-radius: 25px;
+  width: 260px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.restaurant-card:hover {
+  transform: translateY(-12px) scale(1.05);
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.4);
+}
+
+.restaurant-card img {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+.restaurant-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #ff6f00;
+}
+
+.restaurant-card p {
+  font-size: 1rem;
+  color: #ff8c42;
+}

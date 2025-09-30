@@ -1,0 +1,37 @@
+.main-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.card {
+  width: 200px;
+  height: 250px;
+  background-color: aliceblue;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.card:hover {
+  transform: scale(1.1);
+  transition: ease 0.3;
+}
+.img {
+  margin: 0;
+  width: 200px;
+  height: 100%;
+  object-fit: cover;
+}
+.data-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.FoodName {
+  font-family: Geneva, Tahoma, sans-serif;
+  font-size: small;
+  font-weight: 400;
+  margin: 5px;
+}
